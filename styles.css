@@ -4,13 +4,30 @@
 }
 
 body {
-    background-color:rgb(216, 216, 216)
+    background-color:rgb(216, 216, 216);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     border-bottom: 5px solid green;
     text-align: center;
     color:rgb(92, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color:rgb(1, 80, 18);
+    color: white;
+}
+
+.main {
+    font-size: 40px;
 }
 
 h3 {
@@ -23,10 +40,21 @@ img {
     border-radius: 20%;
 }
 
+.center {
+    text-align: center;
+}
+
 .start {
     clear: both;
 }
 
 .div {
     font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    padding: 5px;
 }
