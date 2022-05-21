@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(242, 224, 255)
+}
+
+h1 {
+    border-bottom: 5px solid green;
+    text-align: center;
+    color:rgb(92, 0, 0);
+}
+
+h3 {
+    color: rgb(92, 0, 0);
+}
+
+img {
+    float: left;
+    padding: 15px;
+    border-radius: 20%;
+}
+
+.start {
+    clear: both;
+}
+
+.div {
+    font-weight: bold;
+}
